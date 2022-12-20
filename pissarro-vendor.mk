@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
     vendor/xiaomi/pissarro/proprietary/vendor/bin/getgameserver:$(TARGET_COPY_OUT_VENDOR)/bin/getgameserver \
     vendor/xiaomi/pissarro/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
-    vendor/xiaomi/pissarro/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
     vendor/xiaomi/pissarro/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/xiaomi/pissarro/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
     vendor/xiaomi/pissarro/proprietary/vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi \
@@ -433,7 +432,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/etc/init.panel_info.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.panel_info.sh \
     vendor/xiaomi/pissarro/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
     vendor/xiaomi/pissarro/proprietary/vendor/etc/init/aee_aedv64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64.rc \
-    vendor/xiaomi/pissarro/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/xiaomi/pissarro/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/xiaomi/pissarro/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/xiaomi/pissarro/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc \
@@ -1362,8 +1360,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/gc02m1_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_ofilm_mipi_raw_tuning.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/gc02m1_sunny_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_sunny_mipi_raw_india_tuning.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/gc02m1_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl-mediatek.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.0-impl-mediatek.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
@@ -2520,8 +2516,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/gc02m1_sunny_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_sunny_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/gc02m1_sunny_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_sunny_mipi_raw_india_tuning.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/gc02m1_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
